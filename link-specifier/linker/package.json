@@ -1,0 +1,8 @@
+{
+  "name": "linker",
+  "version": "1.0.0",
+  "description": "TEST CASE: This project has a 'link:' specifier",
+  "dependencies": {
+    "target-folder":"link:../target-folder"
+  }
+}

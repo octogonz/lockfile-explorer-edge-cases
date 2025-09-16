@@ -1,0 +1,8 @@
+{
+  "name": "target-folder",
+  "version": "1.0.0",
+  "description": "TEST CASE: This folder is linked by the 'linker' project",
+  "dependencies": {
+    "color-string": "^2.1.2"
+  }
+}
