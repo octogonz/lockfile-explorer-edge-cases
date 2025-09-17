@@ -16,8 +16,10 @@ importers:
 
   link-specifier/linker:
     specifiers:
+      has-symbols: 1.0.2
       target-folder: link:../target-folder
     dependencies:
+      has-symbols: 1.0.2
       target-folder: link:../target-folder
 
 packages:
@@ -47,4 +49,11 @@ packages:
     dependencies:
       color-convert: 3.1.2
       color-string: 2.1.2
+    dev: false
+
+  /has-symbols/1.0.2:
+    resolution: {integrity: sha512-chXa79rL/UC2KlX17jo3vRGz0azaWEx5tGqZg5pO3NUyEJVB17dMruQlzCCOfUvElghKcm5194+BCRvi2Rv/Gw==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      target-folder: link:link-specifier/target-folder
     dev: false
