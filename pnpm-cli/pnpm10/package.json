@@ -1,0 +1,8 @@
+{
+  "name": "pnpm10",
+  "version": "1.0.0",
+  "description": "Used to install PNPM version 10.0",
+  "dependencies": {
+    "pnpm": "10.x"
+  }
+}

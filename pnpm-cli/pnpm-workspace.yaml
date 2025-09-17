@@ -1,0 +1,4 @@
+packages:
+  - pnpm7
+  - pnpm8
+  - pnpm10

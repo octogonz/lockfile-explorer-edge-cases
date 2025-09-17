@@ -1,0 +1,41 @@
+lockfileVersion: 5.4
+
+importers:
+
+  pnpm10:
+    specifiers:
+      pnpm: 10.x
+    dependencies:
+      pnpm: 10.16.1
+
+  pnpm7:
+    specifiers:
+      pnpm: 7.x
+    dependencies:
+      pnpm: 7.33.7
+
+  pnpm8:
+    specifiers:
+      pnpm: 8.x
+    dependencies:
+      pnpm: 8.15.9
+
+packages:
+
+  /pnpm/10.16.1:
+    resolution: {integrity: sha512-DhVaomKduGcrSehHXaYiaqS96oX9zf3BU1CHSUbU88kfqvZMvcSl0auAAvRz1cP87c0ZeYnPA5D5ut08BGeHBg==}
+    engines: {node: '>=18.12'}
+    hasBin: true
+    dev: false
+
+  /pnpm/7.33.7:
+    resolution: {integrity: sha512-ev4kEGQrOcaY30baTOXHIxpczjYGmNafjPj0IlfUCz5D8jEFOwe43oSf1P+/SnH/V7g1E3d3o1I4jz09p0cgDg==}
+    engines: {node: '>=14.6'}
+    hasBin: true
+    dev: false
+
+  /pnpm/8.15.9:
+    resolution: {integrity: sha512-SZQ0ydj90aJ5Tr9FUrOyXApjOrzuW7Fee13pDzL0e1E6ypjNXP0AHDHw20VLw4BO3M1XhQHkyik6aBYWa72fgQ==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: false
