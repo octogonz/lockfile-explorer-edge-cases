@@ -1,0 +1,9 @@
+{
+  "name": "pnpm-transforms",
+  "version": "1.0.0",
+  "description": "TEST CASE: This project uses pnpmfile.cjs to rewrite various dependencies specifiers",
+  "dependencies": {
+    "decamelize": "^1.2.0",
+    "uri-js": "^3.0.0"
+  }
+}

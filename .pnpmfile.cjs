@@ -22,5 +22,14 @@ function readPackage(packageJson, context) {
       "link:link-specifier/target-folder";
   }
 
+  if (packageJson.name === "pnpm-transforms") {
+    // ADD
+    packageJson.dependencies["address"] = "^1.0.0";
+    // DELETE
+    delete packageJson.dependencies["decamelize"];
+    // Upgrade
+    packageJson.dependencies["uri-js"] = "^4.0.0";
+  }
+
   return packageJson;
 }

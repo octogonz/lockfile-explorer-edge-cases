@@ -2,3 +2,4 @@ packages:
   - duplicate-1/duplicate
   - duplicate-2/duplicate
   - link-specifier/linker
+  - pnpmfile-transforms

@@ -4,7 +4,7 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-pnpmfileChecksum: sha256-4zyWSCPr1pqg8ls9BIGIXMwcWySCQdigBROg4PwZknM=
+pnpmfileChecksum: sha256-tednqUPPat9y98NmpwR8320vxu2TlSor2aoYTxiNCdU=
 
 importers:
 
@@ -29,7 +29,20 @@ importers:
         specifier: link:../target-folder
         version: link:../target-folder
 
+  pnpmfile-transforms:
+    dependencies:
+      address:
+        specifier: ^1.0.0
+        version: 1.2.2
+      uri-js:
+        specifier: ^4.0.0
+        version: 4.4.1
+
 packages:
+
+  address@1.2.2:
+    resolution: {integrity: sha512-4B/qKCfeE/ODUaAUpSwfzazo5x29WD4r3vXiWsB7I2mSDAihwEqKO+g8GELZUQSSAo5e1XTYh3ZVfLyxBc12nA==}
+    engines: {node: '>= 10.0.0'}
 
   color-convert@3.1.2:
     resolution: {integrity: sha512-UNqkvCDXstVck3kdowtOTWROIJQwafjOfXSmddoDrXo4cewMKmusCeF22Q24zvjR8nwWib/3S/dfyzPItPEiJg==}
@@ -51,7 +64,16 @@ packages:
     resolution: {integrity: sha512-chXa79rL/UC2KlX17jo3vRGz0azaWEx5tGqZg5pO3NUyEJVB17dMruQlzCCOfUvElghKcm5194+BCRvi2Rv/Gw==}
     engines: {node: '>= 0.4'}
 
+  punycode@2.3.1:
+    resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
+    engines: {node: '>=6'}
+
+  uri-js@4.4.1:
+    resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
+
 snapshots:
+
+  address@1.2.2: {}
 
   color-convert@3.1.2:
     dependencies:
@@ -71,3 +93,9 @@ snapshots:
   has-symbols@1.0.2:
     dependencies:
       target-folder: link:link-specifier/target-folder
+
+  punycode@2.3.1: {}
+
+  uri-js@4.4.1:
+    dependencies:
+      punycode: 2.3.1
