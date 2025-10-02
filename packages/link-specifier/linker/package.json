@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "TEST CASE: This project has a 'link:' specifier",
   "dependencies": {
-    "target-folder": "link:../target-folder",
+    "target-folder": "link:packages/link-specifier/target-folder",
     "has-symbols": "1.0.2"
   }
 }
