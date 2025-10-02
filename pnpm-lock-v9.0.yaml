@@ -8,6 +8,16 @@ pnpmfileChecksum: sha256-tednqUPPat9y98NmpwR8320vxu2TlSor2aoYTxiNCdU=
 
 importers:
 
+  packages/dev-dependencies:
+    devDependencies:
+      color-string:
+        specifier: ^2.1.2
+        version: 2.1.2
+    optionalDependencies:
+      mime-db:
+        specifier: ^1.52.0
+        version: 1.54.0
+
   packages/duplicate-1/duplicate:
     dependencies:
       color:
@@ -64,6 +74,10 @@ packages:
     resolution: {integrity: sha512-chXa79rL/UC2KlX17jo3vRGz0azaWEx5tGqZg5pO3NUyEJVB17dMruQlzCCOfUvElghKcm5194+BCRvi2Rv/Gw==}
     engines: {node: '>= 0.4'}
 
+  mime-db@1.54.0:
+    resolution: {integrity: sha512-aU5EJuIN2WDemCcAp2vFBfp/m4EAhWJnUNSSw0ixs7/kXbd6Pg64EmwJkNdFhB8aWt1sH2CTXrLxo/iAGV3oPQ==}
+    engines: {node: '>= 0.6'}
+
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
@@ -93,6 +107,9 @@ snapshots:
   has-symbols@1.0.2:
     dependencies:
       target-folder: link:link-specifier/target-folder
+
+  mime-db@1.54.0:
+    optional: true
 
   punycode@2.3.1: {}
 

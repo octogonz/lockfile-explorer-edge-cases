@@ -1,4 +1,5 @@
 packages:
+  - packages/dev-dependencies
   - packages/duplicate-1/duplicate
   - packages/duplicate-2/duplicate
   - packages/link-specifier/linker
