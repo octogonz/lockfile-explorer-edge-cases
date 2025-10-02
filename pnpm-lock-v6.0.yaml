@@ -6,28 +6,28 @@ settings:
 
 importers:
 
-  duplicate-1/duplicate:
+  packages/duplicate-1/duplicate:
     dependencies:
       color:
         specifier: ^5.0.2
         version: 5.0.2
 
-  duplicate-2/duplicate:
+  packages/duplicate-2/duplicate:
     dependencies:
       color-string:
         specifier: ^2.1.2
         version: 2.1.2
 
-  link-specifier/linker:
+  packages/link-specifier/linker:
     dependencies:
       has-symbols:
         specifier: 1.0.2
         version: 1.0.2
       target-folder:
-        specifier: link:../target-folder
-        version: link:../target-folder
+        specifier: link:packages/link-specifier/target-folder
+        version: link:packages/link-specifier/target-folder
 
-  pnpmfile-transforms:
+  packages/pnpmfile-transforms:
     dependencies:
       address:
         specifier: ^1.0.0

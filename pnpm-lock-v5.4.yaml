@@ -2,27 +2,27 @@ lockfileVersion: 5.4
 
 importers:
 
-  duplicate-1/duplicate:
+  packages/duplicate-1/duplicate:
     specifiers:
       color: ^5.0.2
     dependencies:
       color: 5.0.2
 
-  duplicate-2/duplicate:
+  packages/duplicate-2/duplicate:
     specifiers:
       color-string: ^2.1.2
     dependencies:
       color-string: 2.1.2
 
-  link-specifier/linker:
+  packages/link-specifier/linker:
     specifiers:
       has-symbols: 1.0.2
-      target-folder: link:../target-folder
+      target-folder: link:packages/link-specifier/target-folder
     dependencies:
       has-symbols: 1.0.2
-      target-folder: link:../target-folder
+      target-folder: link:packages/link-specifier/target-folder
 
-  pnpmfile-transforms:
+  packages/pnpmfile-transforms:
     specifiers:
       address: ^1.0.0
       uri-js: ^4.0.0
